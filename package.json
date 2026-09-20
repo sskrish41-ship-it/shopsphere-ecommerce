@@ -1,0 +1,10 @@
+{
+  "name": "shopsphere-ecommerce",
+  "version": "1.0.0",
+  "description": "ShopSphere Full-Stack E-Commerce Platform",
+  "private": true,
+  "scripts": {
+    "backend": "cd backend && python run.py",
+    "frontend": "cd frontend && npm run dev"
+  }
+}

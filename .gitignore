@@ -1,0 +1,30 @@
+# Node / Dependencies
+node_modules/
+frontend/node_modules/
+frontend/dist/
+*.log
+
+# Python / Flask
+__pycache__/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+
+# Database & Environment
+backend/instance/*.db
+backend/instance/*.sqlite
+*.env
+.env
+.env.local
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
